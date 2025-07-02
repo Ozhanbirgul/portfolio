@@ -9,11 +9,10 @@ const Navbar = () => {
       {/* Sidebar */}
       <Siderbar />
       <div className="wrapper">
-        <motion.span 
-        initial={{opacity: 0, scale:0.5}}
-        animate={{opacity: 1, scale: 1}}
-        transition={{duration: 0.5}}
-        >Birgül Özhan</motion.span>
+        <span 
+          >
+            <img src="/logom.png" className="logo" alt="kişisel logom" />
+        </span>
         <div className="social">
             <a href="https://github.com/kullaniciAdi" target="_blank" rel="noopener noreferrer">
                 <FaGithub />

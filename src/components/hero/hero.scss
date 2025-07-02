@@ -54,8 +54,12 @@
         right: 0;
 
         img {
-            width: 80%;
-            margin-top: 100px;
+            width: 50%;
+            position: relative;
+            top: 25%;
+            left: 25%;
+            border-radius: 50%;
+            object-fit: cover;
         }
     }
 
