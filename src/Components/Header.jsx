@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { TbFileCv } from "react-icons/tb";
+import logo from "../images/logo.png"
 import { GiHamburgerMenu } from "react-icons/gi";
 
 const Header = () => {
@@ -13,7 +14,7 @@ const Header = () => {
                 <div className="row">
                     <div className="col-lg-4 col-md-4 col-6 relative z-10">
                         <a href="">
-                            <img src="/src/images/logo.png" className="rounded-full w-30 h-30 shadow-lg" alt="" />
+                            <img src={logo} className="rounded-full w-30 h-30 shadow-lg" alt="" />
                         </a>
                     </div>
                     <div className="col-lg-8 col-md-8 col-6 flex justify-end ml-auto">

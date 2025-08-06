@@ -1,4 +1,7 @@
-import React from 'react'
+import React from 'react';
+import serRezistansLogo from "../images/header-logo.png";
+import tlgLogo from "../images/tlg-logo.png";
+import profile from "../images/profile.jpg"
 
 const Hero = () => {
     return (
@@ -7,7 +10,7 @@ const Hero = () => {
                 <div className="row">
                     <div className="col-lg-4">
                         <div className="profile-card bg-gray-600  flex flex-col items-center rounded-[20px] p-4">
-                            <img src="/src/images/profile.jpg" className='profile w-60 h-60 object-cover mb-4' alt="profile image" />
+                            <img src={profile} className='profile w-60 h-60 object-cover mb-4' alt="profile image" />
                             <div className="content">
                                 <div className="title text-white text-3xl text-center">Birgül Özhan</div>
                                 <div className="job-title text-center text-gray-400">Front-end Developer</div>
@@ -29,15 +32,15 @@ const Hero = () => {
                         <div className="relative pl-1 border-l-2 border-gray-600">
 
                             {/* Proje Kutusu 1 */}
-                            <div className="relative mb-10 w-[350px]">
+                            <div href="https://www.serrezistans.com/" className="relative mb-10 w-[350px]">
                                 {/* Nokta */}
                                 <div className="absolute -left-3 top-2 w-4 h-4 rounded-full bg-blue-500 border-2 border-white"></div>
 
                                 {/* Kutunun kendisi */}
-                                <a href="https://www.serrezistans.com/" target="_blank"
+                                <div 
                                 className="bg-white rounded-2xl shadow-md overflow-hidden transition hover:shadow-xl hover:scale-[1.01] ml-4 max-w-[600px]">
                                     <img
-                                        src="/src/images/header-logo.png"
+                                        src={serRezistansLogo}
                                         alt="project logo"
                                         className="w-full h-48 object-contain bg-gray-600 p-4"
                                     />
@@ -47,7 +50,7 @@ const Hero = () => {
                                             Click to Peak bünyesinde front-end developer olarak çalıştığım dönemde Laravel Blade yapısı kullanarak CMS sistemiyle ön yüzünü kodladım.
                                         </p>
                                     </div>
-                                </a>
+                                </div>
                             </div>
 
                             {/* Proje Kutusu 2 */}
@@ -61,7 +64,7 @@ const Hero = () => {
                                     className="block bg-white rounded-2xl shadow-md overflow-hidden transition hover:shadow-xl hover:scale-[1.01] ml-4 max-w-[600px]"
                                 >
                                     <img
-                                        src="/src/images/tlg-logo.png"
+                                        src={tlgLogo}
                                         alt="project logo"
                                         className="w-full h-48 object-contain bg-gray-600 p-4"
                                     />
