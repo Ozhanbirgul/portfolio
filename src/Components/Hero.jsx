@@ -29,8 +29,8 @@ const Hero = () => {
                     <div className="pro-box">
                         <img src="" alt="" />
                         <div className="content">
-                            <div className="title"></div>
-                            <div className="desc"></div>
+                            <div className="title">Ser Rezistans</div>
+                            <div className="desc">Click to Peak bünyesinde front-end developer olarak çalıştığım dönemde laravel blade yapısı kullanarak csm sistemiyle ön yüzünü kodladım.</div>
                         </div>
                     </div>
                 </div>
